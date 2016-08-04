@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<div class="container">
+
+<h1>Teams</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID Num</th>
+      <th>Conference</th>
+      <th>School name</th>
+      <th>Short name</th>
+      <th>Image file</th>
+      <th>Mascot</th>
+      <th>Belongs to participant</th>
+      <th>Seed</th>
+      <th>Division</th>
+      <th>Playing?</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @teams.each do |team| %>
+      <tr>
+        <td><%= team.id %></td>
+        <td><%= team.conference %></td>
+        <td><%= team.school_name %></td>
+        <td><%= team.short_name %></td>
+        <td><%= team.image_file %></td>
+        <td><%= team.mascot %></td>
+        <td><%= team.belongs_to_participant %></td>
+        <td><%= team.seed %></td>
+        <td><%= team.division %></td>
+        <td><%= team.playing %></td>
+        <td><%= link_to 'Show', team %></td>
+        <td><%= link_to 'Edit', edit_team_path(team) %></td>
+        <td><%= link_to 'Destroy', team, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Team', new_team_path %>
+<br><br>
+<%= link_to 'Home', root_path %>
+
+</div>

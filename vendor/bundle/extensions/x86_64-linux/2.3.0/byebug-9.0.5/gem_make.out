@@ -1,0 +1,19 @@
+current directory: /home/kronos/code/ncaa/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+/usr/bin/ruby2.3 -r ./siteconf20160719-9473-1dx6lxi.rb extconf.rb
+creating Makefile
+
+current directory: /home/kronos/code/ncaa/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/kronos/code/ncaa/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/kronos/code/ncaa/vendor/bundle/gems/byebug-9.0.5/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20160719-9473-as5tj7/byebug

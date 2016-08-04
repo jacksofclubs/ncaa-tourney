@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>ID:</strong>
+  <%= @participant.id %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @participant.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @participant.last_name %>
+</p>
+
+<p>
+  <strong>Short name:</strong>
+  <%= @participant.short_name %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @participant.phone_number %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @participant.email %>
+</p>
+
+<p>
+  <strong>Image file:</strong>
+  <%= @participant.image_file %>
+</p>
+
+<p>
+  <strong>Points:</strong>
+  <%= @participant.points %>
+</p>
+
+<p>
+  <strong>Ranking:</strong>
+  <%= @participant.ranking %>
+</p>
+
+<p>
+  <strong>Playing:</strong>
+  <%= @participant.playing %>
+</p>
+
+<%= link_to 'Edit', edit_participant_path(@participant) %> |
+<%= link_to 'Back', participants_path %>

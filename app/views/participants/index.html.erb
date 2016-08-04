@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Participants</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Short name</th>
+      <th>Phone number</th>
+      <th>Email</th>
+      <th>Image file</th>
+      <th>Points</th>
+      <th>Ranking</th>
+      <th>Playing</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @participants.each do |participant| %>
+      <tr>
+        <td><%= participant.id %></td>
+        <td><%= participant.first_name %></td>
+        <td><%= participant.last_name %></td>
+        <td><%= participant.short_name %></td>
+        <td><%= participant.phone_number %></td>
+        <td><%= participant.email %></td>
+        <td><%= participant.image_file %></td>
+        <td><%= participant.points %></td>
+        <td><%= participant.ranking %></td>
+        <td><%= participant.playing %></td>
+        <td><%= link_to 'Show', participant %></td>
+        <td><%= link_to 'Edit', edit_participant_path(participant) %></td>
+        <td><%= link_to 'Destroy', participant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Participant', new_participant_path %>
+<br><br>
+<%= link_to 'Home', root_path %>

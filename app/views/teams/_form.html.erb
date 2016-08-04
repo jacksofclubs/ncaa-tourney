@@ -1,0 +1,62 @@
+<%= form_for(team) do |f| %>
+  <% if team.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(team.errors.count, "error") %> prohibited this team from being saved:</h2>
+
+      <ul>
+      <% team.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :school_name %>
+    <%= f.text_field :school_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :short_name %>
+    <%= f.text_field :short_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :image_file %>
+    <%= f.text_field :image_file %>
+  </div>
+
+  <div class="field">
+    <%= f.label :conference %>
+    <%= f.text_field :conference %>
+  </div>
+
+  <div class="field">
+    <%= f.label :mascot %>
+    <%= f.text_field :mascot %>
+  </div>
+
+  <div class="field">
+    <%= f.label :belongs_to_participant %>
+    <%= f.number_field :belongs_to_participant %>
+  </div>
+
+  <div class="field">
+    <%= f.label :seed %>
+    <%= f.number_field :seed %>
+  </div>
+
+  <div class="field">
+    <%= f.label :division %>
+    <%= f.text_field :division %>
+  </div>
+
+  <div class="field">
+    <%= f.label :playing %>
+    <%= f.check_box :playing %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

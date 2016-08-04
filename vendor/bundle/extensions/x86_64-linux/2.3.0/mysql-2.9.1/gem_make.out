@@ -1,0 +1,23 @@
+current directory: /home/kronos/code/ncaa/vendor/bundle/gems/mysql-2.9.1/ext/mysql_api
+/usr/bin/ruby2.3 -r ./siteconf20160728-7920-1thxtf1.rb extconf.rb
+checking for mysql_ssl_set()... yes
+checking for rb_str_set_len()... yes
+checking for rb_thread_start_timer()... no
+checking for mysql.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/kronos/code/ncaa/vendor/bundle/extensions/x86_64-linux/2.3.0/mysql-2.9.1/mkmf.log
+
+current directory: /home/kronos/code/ncaa/vendor/bundle/gems/mysql-2.9.1/ext/mysql_api
+make "DESTDIR=" clean
+
+current directory: /home/kronos/code/ncaa/vendor/bundle/gems/mysql-2.9.1/ext/mysql_api
+make "DESTDIR="
+compiling mysql.c
+linking shared-object mysql/mysql_api.so
+
+current directory: /home/kronos/code/ncaa/vendor/bundle/gems/mysql-2.9.1/ext/mysql_api
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 mysql_api.so ./.gem.20160728-7920-91a2df/mysql

@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>School name:</strong>
+  <%= @team.school_name %>
+</p>
+
+<p>
+  <strong>Short name:</strong>
+  <%= @team.short_name %>
+</p>
+
+<p>
+  <strong>Image file:</strong>
+  <%= @team.image_file %>
+</p>
+
+<p>
+  <strong>Conference:</strong>
+  <%= @team.conference %>
+</p>
+
+<p>
+  <strong>Mascot:</strong>
+  <%= @team.mascot %>
+</p>
+
+<p>
+  <strong>Belongs to participant:</strong>
+  <%= @team.belongs_to_participant %>
+</p>
+
+<p>
+  <strong>Seed:</strong>
+  <%= @team.seed %>
+</p>
+
+<p>
+  <strong>Division:</strong>
+  <%= @team.division %>
+</p>
+
+<p>
+  <strong>Playing:</strong>
+  <%= @team.playing %>
+</p>
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>

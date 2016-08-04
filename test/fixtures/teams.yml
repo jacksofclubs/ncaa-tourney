@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  school_name: MyString
+  short_name: MyString
+  image_file: MyString
+  conference: MyString
+  mascot: MyString
+  belongs_to_participant: 1
+  seed: 1
+  division: MyString
+  playing: false
+
+two:
+  school_name: MyString
+  short_name: MyString
+  image_file: MyString
+  conference: MyString
+  mascot: MyString
+  belongs_to_participant: 1
+  seed: 1
+  division: MyString
+  playing: false
