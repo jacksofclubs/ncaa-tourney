@@ -3229,3 +3229,34 @@ Processing by TeamsController#index as HTML
 Completed 200 OK in 109ms (Views: 104.9ms | ActiveRecord: 2.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-08-03 21:08:43 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 166ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-03 21:08:48 -0600
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (2.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 37ms (Views: 28.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-03 21:08:50 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 58ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-03 21:08:51 -0600
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (3.3ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (97.7ms)
+Completed 200 OK in 144ms (Views: 133.4ms | ActiveRecord: 5.0ms)
+
+

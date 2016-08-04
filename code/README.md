@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -23,7 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-=======
-# ncaa-tourney
-NCAA basketball tournament web application.  Participants draft teams and compete against each other.
->>>>>>> 76bcf17611e22ec50ffe61df7d7d471595cb04a1
