@@ -16,6 +16,24 @@
   </head>
 
   <body>
+    <div class='container'>
+      <nav class="navbar navbar-default">
+        <ul class='nav navbar-nav'>
+          <li class='nav-item'>
+            <%= link_to 'Home', root_path %>
+          </li>
+          <li class='nav-item'>
+            <%= link_to 'Participants', participants_path %>
+          </li>
+          <li class='nav-item'>
+            <%= link_to 'Teams', teams_path %>
+          </li>
+          <li class='nav-item'>          
+            <%= link_to 'Brackets', brackets_path %>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <%= yield %>
   </body>
 </html>

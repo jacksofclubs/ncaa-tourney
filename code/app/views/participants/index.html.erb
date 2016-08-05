@@ -1,8 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<div class='container'>
+
 <h1>Participants</h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>ID</th>
@@ -39,9 +41,7 @@
     <% end %>
   </tbody>
 </table>
-
 <br>
-
 <%= link_to 'New Participant', new_participant_path %>
-<br><br>
-<%= link_to 'Home', root_path %>
+
+</div>
