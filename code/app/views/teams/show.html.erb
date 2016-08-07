@@ -26,10 +26,18 @@
   <%= @team.mascot %>
 </p>
 
-<p>
-  <strong>Belongs to participant:</strong>
-  <%= @team.belongs_to_participant %>
-</p>
+<!-- below loop only executes if relationship exists -->
+<% if @team.participant != nil %>
+  <p>
+    <strong>Owner: </strong>
+    <%= @team.participant.first_name + ' ' + @team.participant.last_name %>
+  </p>
+<% else %>
+  <p>
+    <strong>Owner: </strong>
+    none
+  </p>
+<% end %>
 
 <p>
   <strong>Seed:</strong>

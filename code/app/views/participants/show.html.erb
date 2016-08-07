@@ -1,6 +1,7 @@
 <div class='container'>
 <p id="notice"><%= notice %></p>
 
+<h2>Participant Info</h2>
 <p>
   <strong>ID:</strong>
   <%= @participant.id %>
@@ -50,6 +51,15 @@
   <strong>Playing:</strong>
   <%= @participant.playing %>
 </p>
+
+<h2>Teams</h2>
+<% @participant.teams.each do |team| %>
+  <p>
+    <strong>Team Name: </strong>
+    <%= team.school_name %>
+  </p>
+<% end %>
+
 
 <%= link_to 'Edit', edit_participant_path(@participant) %> |
 <%= link_to 'Back', participants_path %>
