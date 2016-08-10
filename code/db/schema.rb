@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160806152720) do
+ActiveRecord::Schema.define(version: 20160807205252) do
 
   create_table "brackets", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer  "round_of_tourny"
@@ -31,6 +31,8 @@ ActiveRecord::Schema.define(version: 20160806152720) do
     t.boolean  "playing"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.integer  "bracket_id"
+    t.index ["bracket_id"], name: "fk_rails_bc4fe819f6", using: :btree
   end
 
   create_table "teams", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -48,5 +50,6 @@ ActiveRecord::Schema.define(version: 20160806152720) do
     t.index ["participant_id"], name: "fk_rails_5a634b9f4b", using: :btree
   end
 
+  add_foreign_key "participants", "brackets"
   add_foreign_key "teams", "participants"
 end
