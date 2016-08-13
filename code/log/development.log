@@ -11354,3 +11354,2142 @@ Processing by ParticipantsController#edit as HTML
 Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:33:13 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 183ms (Views: 173.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-11 22:33:18 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 55ms (Views: 37.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-11 22:33:22 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.7ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (84.4ms)
+Completed 200 OK in 117ms (Views: 111.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:33:25 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 37ms (Views: 30.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-11 22:33:28 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.7ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 56ms (Views: 53.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:33:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:36:09 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:36:11 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-11 22:36:13 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.6ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (98.5ms)
+Completed 200 OK in 123ms (Views: 118.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:36:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:37:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2016-08-11 22:37:07 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2016-08-11 22:37:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:41:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:44:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:44:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:45:18 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-11 22:45:28 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-11 22:45:29 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.5ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (63.6ms)
+Completed 200 OK in 82ms (Views: 79.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:45:31 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:45:33 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:45:35 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2016-08-11 22:45:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-11 22:46:09 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 34ms (Views: 30.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-11 22:46:11 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.8ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (62.9ms)
+Completed 200 OK in 82ms (Views: 79.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:46:12 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:46:26 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:46:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:46:39 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:52:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-11 22:53:04 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-11 22:53:05 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 106ms (Views: 103.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:53:13 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:53:14 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:53:15 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-11 22:53:15 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (2.8ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 39ms (Views: 34.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 22:53:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 23:04:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 23:04:49 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 23:04:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 23:04:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 23:06:28 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 23:08:33 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-11 23:09:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:16:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:16:13 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:16:15 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (2.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (80.3ms)
+Completed 200 OK in 100ms (Views: 96.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:16:30 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.6ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:16:32 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:21:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:21:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:21:14 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:21:15 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.8ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (67.4ms)
+Completed 200 OK in 89ms (Views: 86.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:21:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:21:45 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:21:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:21:49 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:21:50 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.1ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (65.3ms)
+Completed 200 OK in 83ms (Views: 80.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:21:51 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (1.1ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 35ms (Views: 31.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:21:52 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:22:28 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:22:49 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:22:53 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:22:54 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.5ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (74.5ms)
+Completed 200 OK in 95ms (Views: 92.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:22:55 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:23:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:25:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:25:07 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:25:09 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.3ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (71.7ms)
+Completed 200 OK in 91ms (Views: 89.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:25:09 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.9ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 34ms (Views: 30.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:25:10 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.5ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:25:18 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:25:21 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:26:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:26:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:29:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:29:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:29:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 49ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:29:24 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:29:38 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.8ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:29:40 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.8ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 90ms (Views: 87.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:29:52 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.8ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:29:53 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:29:54 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:31:19 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:31:20 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.1ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (78.6ms)
+Completed 200 OK in 99ms (Views: 96.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:31:33 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:31:35 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:31:37 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.6ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (84.1ms)
+Completed 200 OK in 108ms (Views: 104.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:31:44 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:31:46 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:32:07 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:32:10 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (69.9ms)
+Completed 200 OK in 91ms (Views: 88.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:32:20 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.5ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (85.7ms)
+Completed 200 OK in 112ms (Views: 108.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:32:35 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.9ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (80.4ms)
+Completed 200 OK in 111ms (Views: 107.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:32:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:33:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:35:01 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:35:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:36:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:36:32 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:36:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:37:11 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:37:32 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:37:35 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:37:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:37:38 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:37:39 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.8ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (74.8ms)
+Completed 200 OK in 96ms (Views: 94.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:37:40 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:37:42 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.2ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:37:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:37:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:38:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:38:07 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:38:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:38:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:38:32 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:38:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:38:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:38:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:39:32 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:43:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:43:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:44:11 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:44:12 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:44:13 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:44:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:44:22 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:44:23 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:44:24 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:44:25 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:46:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:46:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-12 22:46:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-12 22:46:36 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 31ms (Views: 29.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-12 22:46:37 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (70.9ms)
+Completed 200 OK in 94ms (Views: 90.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:46:38 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.5ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-12 22:46:38 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 38ms (Views: 35.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 10:45:10 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.2ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 10:47:51 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 10:47:53 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 10:48:42 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 10:48:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 10:48:48 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 10:48:51 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.8ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 101ms (Views: 97.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 10:50:16 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.7ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (79.7ms)
+Completed 200 OK in 101ms (Views: 99.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 10:50:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 10:50:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 10:51:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 10:51:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 10:51:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 10:52:27 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 10:52:30 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 10:52:31 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.3ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (87.8ms)
+Completed 200 OK in 110ms (Views: 107.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 10:52:32 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 10:52:34 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 36ms (Views: 33.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 10:52:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:13:30 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:13:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:16:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:16:51 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:16:55 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.3ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (71.3ms)
+Completed 200 OK in 94ms (Views: 90.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:17:12 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.9ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (72.3ms)
+Completed 200 OK in 96ms (Views: 93.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:17:14 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.5ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (82.3ms)
+Completed 200 OK in 106ms (Views: 102.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:17:16 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.7ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (71.5ms)
+Completed 200 OK in 94ms (Views: 91.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:17:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:17:19 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:17:29 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:17:33 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:20:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:20:44 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:20:45 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.0ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (67.5ms)
+Completed 200 OK in 87ms (Views: 84.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:20:46 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/brackets/new" for 127.0.0.1 at 2016-08-13 11:26:40 -0500
+Processing by BracketsController#new as HTML
+  Rendering brackets/new.html.erb within layouts/application
+  Rendered brackets/_form.html.erb (20.2ms)
+  Rendered brackets/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 59ms (Views: 43.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:26:43 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 28.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:26:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:26:47 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.5ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/brackets/new" for 127.0.0.1 at 2016-08-13 11:26:48 -0500
+Processing by BracketsController#new as HTML
+  Rendering brackets/new.html.erb within layouts/application
+  Rendered brackets/_form.html.erb (3.1ms)
+  Rendered brackets/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:26:50 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:26:51 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:29:26 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:29:33 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.9ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (88.8ms)
+Completed 200 OK in 109ms (Views: 107.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:29:44 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:29:46 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.6ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 54ms (Views: 50.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:29:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:32:11 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 39ms (Views: 36.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:32:12 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.4ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (110.9ms)
+Completed 200 OK in 145ms (Views: 140.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:32:13 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:32:14 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.5ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:32:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 58ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:33:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:33:42 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.6ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:33:43 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (70.5ms)
+Completed 200 OK in 91ms (Views: 88.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:33:45 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.2ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:33:46 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.4ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:33:46 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (2.4ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (103.6ms)
+Completed 200 OK in 127ms (Views: 122.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:33:47 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:33:49 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:33:51 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:33:52 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (124.6ms)
+Completed 200 OK in 145ms (Views: 142.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:33:54 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:33:54 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (2.3ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (107.7ms)
+Completed 200 OK in 130ms (Views: 125.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:33:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:33:56 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:33:57 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.1ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (84.8ms)
+Completed 200 OK in 110ms (Views: 106.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:33:58 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:33:59 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:34:00 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:34:02 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:34:04 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.1ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 103ms (Views: 101.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:34:05 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:34:07 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:34:15 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.0ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (86.4ms)
+Completed 200 OK in 111ms (Views: 107.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:34:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:34:17 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:34:37 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:34:39 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (71.6ms)
+Completed 200 OK in 101ms (Views: 98.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:35:04 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.9ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (82.9ms)
+Completed 200 OK in 108ms (Views: 105.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:35:07 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:35:27 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.1ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (88.4ms)
+Completed 200 OK in 109ms (Views: 106.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:35:32 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.5ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:36:07 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.5ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (116.1ms)
+Completed 200 OK in 141ms (Views: 136.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2016-08-13 11:37:26 -0500
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.3ms)[0m  [1m[34mSELECT  `teams`.* FROM `teams` WHERE `teams`.`id` = 1 LIMIT 1[0m
+  Rendering teams/show.html.erb within layouts/application
+  Rendered teams/show.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 41ms (Views: 35.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:37:44 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:38:00 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:38:13 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:38:15 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (82.7ms)
+Completed 200 OK in 106ms (Views: 103.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:38:16 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:38:33 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants/new" for 127.0.0.1 at 2016-08-13 11:38:36 -0500
+Processing by ParticipantsController#new as HTML
+  Rendering participants/new.html.erb within layouts/application
+  Rendered participants/_form.html.erb (16.8ms)
+  Rendered participants/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 62ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:38:38 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.6ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/participants/2" for 127.0.0.1 at 2016-08-13 11:38:39 -0500
+Processing by ParticipantsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT  `participants`.* FROM `participants` WHERE `participants`.`id` = 2 LIMIT 1[0m
+  Rendering participants/show.html.erb within layouts/application
+  [1m[36mTeam Load (0.9ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` WHERE `teams`.`participant_id` = 2[0m
+  Rendered participants/show.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 39ms (Views: 35.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:38:41 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants/2/edit" for 127.0.0.1 at 2016-08-13 11:38:43 -0500
+Processing by ParticipantsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mParticipant Load (1.4ms)[0m  [1m[34mSELECT  `participants`.* FROM `participants` WHERE `participants`.`id` = 2 LIMIT 1[0m
+  Rendering participants/edit.html.erb within layouts/application
+  Rendered participants/_form.html.erb (7.0ms)
+  Rendered participants/edit.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 50ms (Views: 42.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/participants/2/edit" for 127.0.0.1 at 2016-08-13 11:39:02 -0500
+Processing by ParticipantsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mParticipant Load (0.9ms)[0m  [1m[34mSELECT  `participants`.* FROM `participants` WHERE `participants`.`id` = 2 LIMIT 1[0m
+  Rendering participants/edit.html.erb within layouts/application
+  Rendered participants/_form.html.erb (10.4ms)
+  Rendered participants/edit.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 62ms (Views: 56.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:39:15 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:39:21 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.0ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (65.6ms)
+Completed 200 OK in 87ms (Views: 84.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/teams/new" for 127.0.0.1 at 2016-08-13 11:39:26 -0500
+Processing by TeamsController#new as HTML
+  Rendering teams/new.html.erb within layouts/application
+  Rendered teams/_form.html.erb (7.3ms)
+  Rendered teams/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:39:28 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.7ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (100.8ms)
+Completed 200 OK in 121ms (Views: 119.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2016-08-13 11:39:30 -0500
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.4ms)[0m  [1m[34mSELECT  `teams`.* FROM `teams` WHERE `teams`.`id` = 1 LIMIT 1[0m
+  Rendering teams/show.html.erb within layouts/application
+  Rendered teams/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:39:33 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.0ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (82.3ms)
+Completed 200 OK in 103ms (Views: 100.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:40:26 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.0ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (72.7ms)
+Completed 200 OK in 98ms (Views: 95.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2016-08-13 11:40:28 -0500
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.3ms)[0m  [1m[34mSELECT  `teams`.* FROM `teams` WHERE `teams`.`id` = 1 LIMIT 1[0m
+  Rendering teams/show.html.erb within layouts/application
+  Rendered teams/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams/1/edit" for 127.0.0.1 at 2016-08-13 11:40:31 -0500
+Processing by TeamsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.4ms)[0m  [1m[34mSELECT  `teams`.* FROM `teams` WHERE `teams`.`id` = 1 LIMIT 1[0m
+  Rendering teams/edit.html.erb within layouts/application
+  Rendered teams/_form.html.erb (6.8ms)
+  Rendered teams/edit.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:40:43 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.1ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (72.7ms)
+Completed 200 OK in 97ms (Views: 94.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/teams/1/edit" for 127.0.0.1 at 2016-08-13 11:40:45 -0500
+Processing by TeamsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeam Load (0.4ms)[0m  [1m[34mSELECT  `teams`.* FROM `teams` WHERE `teams`.`id` = 1 LIMIT 1[0m
+  Rendering teams/edit.html.erb within layouts/application
+  Rendered teams/_form.html.erb (4.4ms)
+  Rendered teams/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:40:51 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2016-08-13 11:40:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2016-08-13 11:41:35 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:41:38 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:41:38 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:41:40 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.3ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:41:41 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.8ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (83.9ms)
+Completed 200 OK in 104ms (Views: 101.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:41:42 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.7ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (67.9ms)
+Completed 200 OK in 90ms (Views: 88.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:41:43 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (2.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (87.1ms)
+Completed 200 OK in 113ms (Views: 108.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:41:45 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.7ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (69.7ms)
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:41:46 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:41:48 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.2ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:41:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:42:40 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 35ms (Views: 31.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants/2" for 127.0.0.1 at 2016-08-13 11:42:45 -0500
+Processing by ParticipantsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mParticipant Load (0.8ms)[0m  [1m[34mSELECT  `participants`.* FROM `participants` WHERE `participants`.`id` = 2 LIMIT 1[0m
+  Rendering participants/show.html.erb within layouts/application
+  [1m[36mTeam Load (0.5ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` WHERE `teams`.`participant_id` = 2[0m
+  Rendered participants/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 45ms (Views: 39.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/participants/2/edit" for 127.0.0.1 at 2016-08-13 11:42:53 -0500
+Processing by ParticipantsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT  `participants`.* FROM `participants` WHERE `participants`.`id` = 2 LIMIT 1[0m
+  Rendering participants/edit.html.erb within layouts/application
+  Rendered participants/_form.html.erb (5.2ms)
+  Rendered participants/edit.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 34ms (Views: 31.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:43:07 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.7ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 67ms (Views: 62.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:43:14 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:43:35 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.5ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:43:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:43:58 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/brackets/new" for 127.0.0.1 at 2016-08-13 11:44:37 -0500
+Processing by BracketsController#new as HTML
+  Rendering brackets/new.html.erb within layouts/application
+  Rendered brackets/_form.html.erb (3.3ms)
+  Rendered brackets/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 36ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:44:46 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:46:07 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:46:14 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:46:17 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (0.8ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (81.6ms)
+Completed 200 OK in 112ms (Views: 109.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:46:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/participants" for 127.0.0.1 at 2016-08-13 11:46:34 -0500
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.4ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered participants/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2016-08-13 11:46:35 -0500
+Processing by TeamsController#index as HTML
+  Rendering teams/index.html.erb within layouts/application
+  [1m[36mTeam Load (1.7ms)[0m  [1m[34mSELECT `teams`.* FROM `teams`[0m
+  Rendered teams/index.html.erb within layouts/application (83.1ms)
+Completed 200 OK in 106ms (Views: 102.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:46:36 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:46:36 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 31.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 11:46:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/brackets" for 127.0.0.1 at 2016-08-13 11:46:48 -0500
+Processing by BracketsController#index as HTML
+  Rendering brackets/index.html.erb within layouts/application
+  [1m[36mBracket Load (0.3ms)[0m  [1m[34mSELECT `brackets`.* FROM `brackets`[0m
+  Rendered brackets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.3ms)
+
+

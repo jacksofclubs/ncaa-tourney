@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+ 
+ /*
+html, body { background: #C63D0F; }
+*/
+/*
+.container { background: #C63D0F; }
+*/
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+	/* show scrollbar on every page */
+    overflow-y:scroll;
+}
