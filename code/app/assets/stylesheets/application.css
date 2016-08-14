@@ -37,3 +37,7 @@ html {
 	/* show scrollbar on every page */
     overflow-y:scroll;
 }
+
+.outline {
+    outline: 1px solid darkorange;
+}
