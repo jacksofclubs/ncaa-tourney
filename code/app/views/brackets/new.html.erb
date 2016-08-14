@@ -1,7 +1,14 @@
 <div class='container'>
-<h1>New Bracket</h1>
-
-<%= render 'form', bracket: @bracket %>
-
-<%= link_to 'Back', brackets_path %>
+	<h1>Create New Bracket</h1>
+	<h3>To Create a New Bracket:</h3>
+	<p>
+		1) Select active team members<br>
+		2) Select active teams<br>
+		3) Complete the draft - participants select teams<br>
+		4) Save!
+	</p>
+	<br>
+	<%= link_to 'Continue', brackets_selectparticipants_path %>
+	<br>
+	<%= link_to 'Back', root_path %>
 </div>

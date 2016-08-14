@@ -1,0 +1,22 @@
+<div class='container'>
+  <h1>Select 8 People to Participate</h1>
+
+  <%= form_tag activateteams_brackets_path, method: :put do %>
+    <table class="table table-striped">
+        <thead>
+          <th>Name</th> 
+          <th>Active</th>                                             
+        </thead>
+
+        <% @participants.each do |participant| %>
+          <tr>
+            <td><%= participant.first_name + " " + participant.last_name %></td>
+            <td><%= check_box_tag "participant_ids[]", participant.id, participant.playing %></td>
+          </tr>
+        <% end %>
+
+    </table>
+    <%= submit_tag "Submit and Continue" %>
+  <% end %>
+
+</div>

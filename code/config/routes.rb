@@ -3,7 +3,13 @@ Rails.application.routes.draw do
 
 
   resources :welcome
-  resources :brackets
+  get '/brackets/selectparticipants' => 'brackets#selectparticipants'
+  get '/brackets/selectteams' => 'brackets#selectteams'
+  resources :brackets do
+  	collection do
+  		put :activateteams
+  	end
+  end
   resources :teams
   resources :participants
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

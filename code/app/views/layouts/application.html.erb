@@ -34,10 +34,10 @@
           </li>
           <!-- <li class='nav-item'> -->
           <li class = "nav-item <%= cp(brackets_path) %>" >        
-            <%= link_to 'Brackets', brackets_path %>
+            <%= link_to 'Active Bracket' %>
           </li>
-          <li class = "nav-item" >        
-            <%= link_to 'New Tournament!' %>
+          <li class = "nav-item <%= cp(new_bracket_path) %>" >
+            <%= link_to 'New Bracket', new_bracket_path %>
           </li>
         </ul>
       </nav>

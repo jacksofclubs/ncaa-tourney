@@ -61,6 +61,22 @@ class BracketsController < ApplicationController
     end
   end
 
+  def selectparticipants
+    @participants = Participant.all
+  end
+
+  def selectteams
+    @teams = Team.all
+  end
+
+  def activateteams
+    # creates SQL statement similar to the following:
+    # UPDATE Participants SET playing = true where id IN participant_ids[];
+    Participant.update_all(playing: false)
+    Participant.where(id: params[:participant_ids]).update_all(playing: true)
+    redirect_to brackets_selectteams_path
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_bracket
