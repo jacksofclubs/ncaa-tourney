@@ -68,6 +68,7 @@ class BracketsController < ApplicationController
   def selectteams
     @teams = Team.all
     @teams_options = Team.all.map{ |t| [ t.school_name, t.id ] }
+    @regions_options = Region.all
   end
 
   def activateteams

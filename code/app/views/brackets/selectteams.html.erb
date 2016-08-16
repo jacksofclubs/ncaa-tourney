@@ -4,137 +4,110 @@
   <div class='row'>
     <div class='col-md-4 text-right outline'>      
         <strong>Division</strong>        
-        <div>Select Division</div>
-        <br>
         <div>
-          <strong>Select Teams</strong>
+          <%= select_tag(:topl_div, options_for_select(@regions_options), prompt: 'Select Upper Left Division') %>
+        </div>
+        <br>
+        <div>          
           <table class="table table-striped">
+            <thead>
+              <td><strong>Seed</strong></td>
+              <td><strong>Select Teams</strong></td>
+            </thead>
             <tr>
               <td>1</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl1, options_for_select(@teams_options)) %>
-                </div>
+              <td>                
+                <%= select_tag(:topl1, options_for_select(@teams_options), prompt: 'Select 1 Seed') %>                                      
               </td>
             </tr>  
             <tr>
               <td>16</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl16, options_for_select(@teams_options)) %>
-                </div>                
+              <td>                
+                <%= select_tag(:topl16, options_for_select(@teams_options), prompt: 'Select 16 Seed') %>                            
               </td>
             </tr>
             <tr>
               <td>8</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl8, options_for_select(@teams_options)) %>
-                </div>
+              <td>                
+                <%= select_tag(:topl8, options_for_select(@teams_options), prompt: 'Select 8 Seed') %>                
               </td>
             </tr>  
             <tr>
               <td>9</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl9, options_for_select(@teams_options)) %>
-                </div>                
+              <td>                
+                <%= select_tag(:topl9, options_for_select(@teams_options), prompt: 'Select 9 Seed') %>                              
               </td>
             </tr>
             <tr>
               <td>5</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl5, options_for_select(@teams_options)) %>
-                </div>
+              <td>                
+                <%= select_tag(:topl5, options_for_select(@teams_options), prompt: 'Select 5 Seed') %>                
               </td>
             </tr>  
             <tr>
               <td>12</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl12, options_for_select(@teams_options)) %>
-                </div>                
+              <td>                
+                <%= select_tag(:topl12, options_for_select(@teams_options), prompt: 'Select 12 Seed') %>                              
               </td>
             </tr>
             <tr>
               <td>4</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl4, options_for_select(@teams_options)) %>
-                </div>
+              <td>                
+                <%= select_tag(:topl4, options_for_select(@teams_options), prompt: 'Select 4 Seed') %>                
               </td>
             </tr>  
             <tr>
               <td>13</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl13, options_for_select(@teams_options)) %>
-                </div>                
+              <td>                
+                <%= select_tag(:topl13, options_for_select(@teams_options), prompt: 'Select 13 Seed') %>                               
               </td>
             </tr>     
             <tr>
               <td>6</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl6, options_for_select(@teams_options)) %>
-                </div>
+              <td>                
+                <%= select_tag(:topl6, options_for_select(@teams_options), prompt: 'Select 6 Seed') %>                
               </td>
             </tr>  
             <tr>
               <td>11</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl11, options_for_select(@teams_options)) %>
-                </div>                
+              <td>                
+                <%= select_tag(:topl11, options_for_select(@teams_options), prompt: 'Select 11 Seed') %>                             
               </td>
             </tr>
             <tr>
               <td>3</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl3, options_for_select(@teams_options)) %>
-                </div>
+              <td>                
+                <%= select_tag(:topl3, options_for_select(@teams_options), prompt: 'Select 3 Seed') %>                
               </td>
             </tr>  
             <tr>
               <td>14</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl14, options_for_select(@teams_options)) %>
-                </div>                
+              <td>                
+                <%= select_tag(:topl14, options_for_select(@teams_options), prompt: 'Select 14 Seed') %>                             
               </td>
             </tr>
             <tr>
               <td>7</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl7, options_for_select(@teams_options)) %>
-                </div>
+              <td>                
+                <%= select_tag(:topl7, options_for_select(@teams_options), prompt: 'Select 7 Seed') %>                
               </td>
             </tr>  
             <tr>
               <td>10</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl10, options_for_select(@teams_options)) %>
-                </div>                
+              <td>                
+                <%= select_tag(:topl10, options_for_select(@teams_options), prompt: 'Select 10 Seed') %>                              
               </td>
             </tr>
             <tr>
               <td>2</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl2, options_for_select(@teams_options)) %>
-                </div>
+              <td>                
+                <%= select_tag(:topl2, options_for_select(@teams_options), prompt: 'Select 2 Seed') %>                
               </td>
             </tr>  
             <tr>
               <td>15</td>
-              <td>
-                <div>
-                  <%= select_tag(:topl15, options_for_select(@teams_options)) %>
-                </div>                
+              <td>                
+                <%= select_tag(:topl15, options_for_select(@teams_options), prompt: 'Select 15 Seed') %>                              
               </td>
             </tr>                                        
           </table>
