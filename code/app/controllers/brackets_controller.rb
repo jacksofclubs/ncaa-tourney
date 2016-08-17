@@ -67,8 +67,9 @@ class BracketsController < ApplicationController
 
   def selectteams
     @teams = Team.all
-    @teams_options = Team.all.map{ |t| [ t.school_name, t.id ] }
-    @regions_options = Region.all
+    #@teams_options = Team.all.map{ |t| [ t.school_name, t.id ] }
+    @teams_options = Team.all.order(:school_name).map{ |t| [ t.school_name, t.id ] }
+    @regions_options = Region.all.order(:region).map{ |r| [ r.region, r.id ] }
   end
 
   def activateteams
