@@ -19005,3 +19005,107 @@ Processing by BracketsController#selectteams as HTML
 Completed 200 OK in 271ms (Views: 254.9ms | ActiveRecord: 1.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-08-19 22:13:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 183ms (Views: 175.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/brackets/new" for 127.0.0.1 at 2016-08-19 22:14:19 -0500
+Processing by BracketsController#new as HTML
+  Rendering brackets/new.html.erb within layouts/application
+  Rendered brackets/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 21.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/brackets/selectparticipants" for 127.0.0.1 at 2016-08-19 22:14:20 -0500
+Processing by BracketsController#selectparticipants as HTML
+  Rendering brackets/selectparticipants.html.erb within layouts/application
+  [1m[36mParticipant Load (0.6ms)[0m  [1m[34mSELECT `participants`.* FROM `participants`[0m
+  Rendered brackets/selectparticipants.html.erb within layouts/application (40.6ms)
+Completed 200 OK in 71ms (Views: 62.0ms | ActiveRecord: 1.6ms)
+
+
+Started PUT "/brackets/activateteams" for 127.0.0.1 at 2016-08-19 22:14:23 -0500
+Processing by BracketsController#activateteams as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H4F6qdXPgG0nvupjbdGCd1U9MvvaZ2crtOQWRyqsq9Vqjz3HVuCfhnn1gMGtSfJM9/zlaKqFM19yXFyOzZOZWg==", "participant_ids"=>["2", "3", "4", "5", "6", "7", "10", "11"], "commit"=>"Submit and Continue"}
+  [1m[35mSQL (2.3ms)[0m  [1m[33mUPDATE `participants` SET `participants`.`playing` = 0[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[33mUPDATE `participants` SET `participants`.`playing` = 1 WHERE `participants`.`id` IN (2, 3, 4, 5, 6, 7, 10, 11)[0m
+Redirected to http://localhost:3000/brackets/selectteams
+Completed 302 Found in 9ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/brackets/selectteams" for 127.0.0.1 at 2016-08-19 22:14:23 -0500
+Processing by BracketsController#selectteams as HTML
+  [1m[36mTeam Load (1.6ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` ORDER BY `teams`.`school_name` ASC[0m
+  [1m[36mRegion Load (0.4ms)[0m  [1m[34mSELECT `regions`.* FROM `regions` ORDER BY `regions`.`region` ASC[0m
+  Rendering brackets/selectteams.html.erb within layouts/application
+  Rendered brackets/selectteams.html.erb within layouts/application (335.3ms)
+Completed 200 OK in 398ms (Views: 356.6ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/brackets/selectteams" for 127.0.0.1 at 2016-08-19 22:25:27 -0500
+Processing by BracketsController#selectteams as HTML
+  [1m[36mTeam Load (2.1ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` ORDER BY `teams`.`school_name` ASC[0m
+  [1m[36mRegion Load (0.3ms)[0m  [1m[34mSELECT `regions`.* FROM `regions` ORDER BY `regions`.`region` ASC[0m
+  Rendering brackets/selectteams.html.erb within layouts/application
+  Rendered brackets/selectteams.html.erb within layouts/application (270.0ms)
+Completed 200 OK in 308ms (Views: 293.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/brackets/selectteams" for 127.0.0.1 at 2016-08-19 22:26:19 -0500
+Processing by BracketsController#selectteams as HTML
+  [1m[36mTeam Load (2.3ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` ORDER BY `teams`.`school_name` ASC[0m
+  [1m[36mRegion Load (0.4ms)[0m  [1m[34mSELECT `regions`.* FROM `regions` ORDER BY `regions`.`region` ASC[0m
+  Rendering brackets/selectteams.html.erb within layouts/application
+  Rendered brackets/selectteams.html.erb within layouts/application (266.4ms)
+Completed 200 OK in 316ms (Views: 298.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/brackets/selectteams" for 127.0.0.1 at 2016-08-19 22:27:05 -0500
+Processing by BracketsController#selectteams as HTML
+  [1m[36mTeam Load (4.8ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` ORDER BY `teams`.`school_name` ASC[0m
+  [1m[36mRegion Load (0.5ms)[0m  [1m[34mSELECT `regions`.* FROM `regions` ORDER BY `regions`.`region` ASC[0m
+  Rendering brackets/selectteams.html.erb within layouts/application
+  Rendered brackets/selectteams.html.erb within layouts/application (270.4ms)
+Completed 200 OK in 327ms (Views: 294.0ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/brackets/selectteams" for 127.0.0.1 at 2016-08-19 22:27:49 -0500
+Processing by BracketsController#selectteams as HTML
+  [1m[36mTeam Load (4.2ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` ORDER BY `teams`.`school_name` ASC[0m
+  [1m[36mRegion Load (1.9ms)[0m  [1m[34mSELECT `regions`.* FROM `regions` ORDER BY `regions`.`region` ASC[0m
+  Rendering brackets/selectteams.html.erb within layouts/application
+  Rendered brackets/selectteams.html.erb within layouts/application (342.8ms)
+Completed 200 OK in 404ms (Views: 367.9ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/brackets/selectteams" for 127.0.0.1 at 2016-08-19 22:28:12 -0500
+Processing by BracketsController#selectteams as HTML
+  [1m[36mTeam Load (3.3ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` ORDER BY `teams`.`school_name` ASC[0m
+  [1m[36mRegion Load (0.8ms)[0m  [1m[34mSELECT `regions`.* FROM `regions` ORDER BY `regions`.`region` ASC[0m
+  Rendering brackets/selectteams.html.erb within layouts/application
+  Rendered brackets/selectteams.html.erb within layouts/application (270.8ms)
+Completed 200 OK in 321ms (Views: 300.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/brackets/selectteams" for 127.0.0.1 at 2016-08-19 22:39:35 -0500
+Processing by BracketsController#selectteams as HTML
+  [1m[36mTeam Load (1.8ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` ORDER BY `teams`.`school_name` ASC[0m
+  [1m[36mRegion Load (0.3ms)[0m  [1m[34mSELECT `regions`.* FROM `regions` ORDER BY `regions`.`region` ASC[0m
+  Rendering brackets/selectteams.html.erb within layouts/application
+  Rendered brackets/selectteams.html.erb within layouts/application (251.0ms)
+Completed 200 OK in 286ms (Views: 270.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/brackets/selectteams" for 127.0.0.1 at 2016-08-19 22:40:13 -0500
+Processing by BracketsController#selectteams as HTML
+  [1m[36mTeam Load (1.3ms)[0m  [1m[34mSELECT `teams`.* FROM `teams` ORDER BY `teams`.`school_name` ASC[0m
+  [1m[36mRegion Load (0.5ms)[0m  [1m[34mSELECT `regions`.* FROM `regions` ORDER BY `regions`.`region` ASC[0m
+  Rendering brackets/selectteams.html.erb within layouts/application
+  Rendered brackets/selectteams.html.erb within layouts/application (244.3ms)
+Completed 200 OK in 282ms (Views: 265.7ms | ActiveRecord: 1.8ms)
+
+
