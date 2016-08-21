@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   get '/brackets/selectteams' => 'brackets#selectteams'
   resources :brackets do
   	collection do
-  		put :activateteams
+  		put :activateparticipants
+      put :activateteams
   	end
   end
   resources :teams

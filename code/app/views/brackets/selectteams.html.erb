@@ -1,466 +1,130 @@
 <div class='container'>
   <h1>Select 68 Teams to Participate</h1>
 
-  <div class='row'>
-    <div class='col-md-4 col-md-offset-2 text-right outline'>      
-      <strong>Division</strong>        
-      <div>
-        <%= select_tag(:topl_div, options_for_select(@regions_options), prompt: 'Select Upper Left Division') %>
+  <%= form_tag activateteams_brackets_path, method: :put do %>
+    <div class='row'>
+      <div class='col-md-4 col-md-offset-2 text-right outline'>      
+        <strong>Division</strong>        
+        <div>
+          <%= select_tag(:topl_div, options_for_select(@regions_options), prompt: 'Select Upper Left Division') %>
+        </div>
+        <br>
+        <div>          
+          <table class="table table-striped">
+            <thead>
+              <td><strong>Seed</strong></td>
+              <td><strong>Select Teams</strong></td>
+            </thead>
+            <%-# begin loop %>
+            <% for i in 0..15 %>
+            <tr>
+              <td><%= @seed_order[i] %></td>
+              <td>                
+                <%= select_tag("topl_ids[]", options_for_select(@teams), prompt: @prompts[i]) %>
+                <%-# collection_select(:team, :topl_1, Team.all.order(:school_name), :id, :school_name) %>
+                <%-# collection_select(:team, :topl_1, @teams, :id, :school_name, prompt: 'Select 1 Seed') %>
+                <%-# select_tag(:topl_1, options_from_collection_for_select(Team.all, :id, :school_name)) %>
+              </td>
+            </tr>
+            <% end %>
+            <%-# end loop %>  
+          </table>
+        </div>
       </div>
-      <br>
-      <div>          
-        <table class="table table-striped">
-          <thead>
-            <td><strong>Seed</strong></td>
-            <td><strong>Select Teams</strong></td>
-          </thead>
-          <tr>
-            <td>1</td>
-            <td>                
-              <%= select_tag(:topl_1, options_for_select(@teams_options), prompt: 'Select 1 Seed') %>                               
-            </td>
-          </tr>  
-          <tr>
-            <td>16</td>
-            <td>                
-              <%= select_tag(:topl_16, options_for_select(@teams_options), prompt: 'Select 16 Seed') %>                            
-            </td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>                
-              <%= select_tag(:topl_8, options_for_select(@teams_options), prompt: 'Select 8 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>9</td>
-            <td>                
-              <%= select_tag(:topl_9, options_for_select(@teams_options), prompt: 'Select 9 Seed') %>                              
-            </td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>                
-              <%= select_tag(:topl_5, options_for_select(@teams_options), prompt: 'Select 5 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>12</td>
-            <td>                
-              <%= select_tag(:topl_12, options_for_select(@teams_options), prompt: 'Select 12 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>                
-              <%= select_tag(:topl_4, options_for_select(@teams_options), prompt: 'Select 4 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>13</td>
-            <td>                
-              <%= select_tag(:topl_13, options_for_select(@teams_options), prompt: 'Select 13 Seed') %>                             
-            </td>
-          </tr>     
-          <tr>
-            <td>6</td>
-            <td>                
-              <%= select_tag(:topl_6, options_for_select(@teams_options), prompt: 'Select 6 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>11</td>
-            <td>                
-              <%= select_tag(:topl_11, options_for_select(@teams_options), prompt: 'Select 11 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>                
-              <%= select_tag(:topl_3, options_for_select(@teams_options), prompt: 'Select 3 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>14</td>
-            <td>                
-              <%= select_tag(:topl_14, options_for_select(@teams_options), prompt: 'Select 14 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>                
-              <%= select_tag(:topl_7, options_for_select(@teams_options), prompt: 'Select 7 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>10</td>
-            <td>                
-              <%= select_tag(:topl_10, options_for_select(@teams_options), prompt: 'Select 10 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>                
-              <%= select_tag(:topl_2, options_for_select(@teams_options), prompt: 'Select 2 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>15</td>
-            <td>                
-              <%= select_tag(:topl_15, options_for_select(@teams_options), prompt: 'Select 15 Seed') %>                             
-            </td>
-          </tr>                                        
-        </table>
+      <!--
+      <div class='col-md-4 text-center outline'>
+        <! column 2 - nothing here
       </div>
+      -->
+      <div class='col-md-4 text-left outline'>
+        <strong>Division</strong>        
+        <div>
+          <%= select_tag(:topr_div, options_for_select(@regions_options), prompt: 'Select Upper Right Division') %>
+        </div>
+        <br>
+        <div>          
+          <table class="table table-striped">
+            <thead>
+              <td><strong>Seed</strong></td>
+              <td><strong>Select Teams</strong></td>
+            </thead>
+            <%-# begin loop %>
+            <% for i in 0..15 %>
+            <tr>
+              <td><%= @seed_order[i] %></td>
+              <td>                
+                <%= select_tag("topr_ids[]", options_for_select(@teams), prompt: @prompts[i]) %>                               
+              </td>
+            </tr>
+            <% end %> 
+            <%-# end loop %>  
+          </table>
+        </div>
+      </div>
+
     </div>
-    <!--
-    <div class='col-md-4 text-center outline'>
-      <! column 2 - nothing here
-    </div>
-    -->
-    <div class='col-md-4 text-left outline'>
-      <strong>Division</strong>        
-      <div>
-        <%= select_tag(:topr_div, options_for_select(@regions_options), prompt: 'Select Upper Right Division') %>
+    <br><br>
+    <div class='row'>
+      <div class='col-md-4 col-md-offset-2 text-right outline'>
+        <strong>Division</strong>
+        <div>
+          <%= select_tag(:botl_div, options_for_select(@regions_options), prompt: 'Select Bottom Left Division') %>
+        </div>
+        <br>
+        <div>
+          <table class="table table-striped">                                  
+            <thead>
+              <td><strong>Seed</strong></td>
+              <td><strong>Select Teams</strong></td>
+            </thead>
+            <%-# begin loop %>
+            <% for i in 0..15 %>            
+            <tr>
+              <td><%= @seed_order[i] %></td>
+              <td>                
+                <%= select_tag("botl_ids[]", options_for_select(@teams), prompt: @prompts[i]) %>                               
+              </td>
+            </tr>
+            <% end %> 
+            <%-# end loop %>                
+          </table>
+        </div> 
       </div>
-      <br>
-      <div>          
-        <table class="table table-striped">
-          <thead>
-            <td><strong>Seed</strong></td>
-            <td><strong>Select Teams</strong></td>
-          </thead>
-          <tr>
-            <td>1</td>
-            <td>                
-              <%= select_tag(:topr_1, options_for_select(@teams_options), prompt: 'Select 1 Seed') %>                               
-            </td>
-          </tr>  
-          <tr>
-            <td>16</td>
-            <td>                
-              <%= select_tag(:topr_16, options_for_select(@teams_options), prompt: 'Select 16 Seed') %>                            
-            </td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>                
-              <%= select_tag(:topr_8, options_for_select(@teams_options), prompt: 'Select 8 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>9</td>
-            <td>                
-              <%= select_tag(:topr_9, options_for_select(@teams_options), prompt: 'Select 9 Seed') %>                              
-            </td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>                
-              <%= select_tag(:topr_5, options_for_select(@teams_options), prompt: 'Select 5 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>12</td>
-            <td>                
-              <%= select_tag(:topr_12, options_for_select(@teams_options), prompt: 'Select 12 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>                
-              <%= select_tag(:topr_4, options_for_select(@teams_options), prompt: 'Select 4 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>13</td>
-            <td>                
-              <%= select_tag(:topr_13, options_for_select(@teams_options), prompt: 'Select 13 Seed') %>                             
-            </td>
-          </tr>     
-          <tr>
-            <td>6</td>
-            <td>                
-              <%= select_tag(:topr_6, options_for_select(@teams_options), prompt: 'Select 6 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>11</td>
-            <td>                
-              <%= select_tag(:topr_11, options_for_select(@teams_options), prompt: 'Select 11 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>                
-              <%= select_tag(:topr_3, options_for_select(@teams_options), prompt: 'Select 3 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>14</td>
-            <td>                
-              <%= select_tag(:topr_14, options_for_select(@teams_options), prompt: 'Select 14 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>                
-              <%= select_tag(:topr_7, options_for_select(@teams_options), prompt: 'Select 7 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>10</td>
-            <td>                
-              <%= select_tag(:topr_10, options_for_select(@teams_options), prompt: 'Select 10 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>                
-              <%= select_tag(:topr_2, options_for_select(@teams_options), prompt: 'Select 2 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>15</td>
-            <td>                
-              <%= select_tag(:topr_15, options_for_select(@teams_options), prompt: 'Select 15 Seed') %>                             
-            </td>
-          </tr>                                        
-        </table>
+      <!--
+      <div class='col-md-4 text-center outline'>
+        <! column 2 - nothing here 
       </div>
+      -->
+      <div class='col-md-4 text-left outline'>
+        <strong>Division</strong>
+        <div>
+          <%= select_tag(:botr_div, options_for_select(@regions_options), prompt: 'Select Bottom Right Division') %>
+        </div>
+        <br>
+        <div>
+          <table class="table table-striped">                        
+            <thead>
+              <td><strong>Seed</strong></td>
+              <td><strong>Select Teams</strong></td>
+            </thead>
+            <%-# begin loop %>
+            <% for i in 0..15 %>                        
+            <tr>
+              <td><%= @seed_order[i] %></td>
+              <td>                
+                <%= select_tag("botr_ids[]", options_for_select(@teams), prompt: @prompts[i]) %>                               
+              </td>
+            </tr>
+            <% end %> 
+            <%-# end loop %>                              
+          </table>
+        </div>
+      </div>
+
     </div>
 
-  </div>
+    <%= submit_tag "Submit and Continue" %>
+  <% end %>
   <br><br>
-  <div class='row'>
-    <div class='col-md-4 col-md-offset-2 text-right outline'>
-      <strong>Division</strong>
-      <div>
-        <%= select_tag(:botl_div, options_for_select(@regions_options), prompt: 'Select Bottom Left Division') %>
-      </div>
-      <br>
-      <div>
-        <table class="table table-striped">                                  
-          <thead>
-            <td><strong>Seed</strong></td>
-            <td><strong>Select Teams</strong></td>
-          </thead>
-          <tr>
-            <td>1</td>
-            <td>                
-              <%= select_tag(:botl_1, options_for_select(@teams_options), prompt: 'Select 1 Seed') %>                               
-            </td>
-          </tr>  
-          <tr>
-            <td>16</td>
-            <td>                
-              <%= select_tag(:botl_16, options_for_select(@teams_options), prompt: 'Select 16 Seed') %>                            
-            </td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>                
-              <%= select_tag(:botl_8, options_for_select(@teams_options), prompt: 'Select 8 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>9</td>
-            <td>                
-              <%= select_tag(:botl_9, options_for_select(@teams_options), prompt: 'Select 9 Seed') %>                              
-            </td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>                
-              <%= select_tag(:botl_5, options_for_select(@teams_options), prompt: 'Select 5 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>12</td>
-            <td>                
-              <%= select_tag(:botl_12, options_for_select(@teams_options), prompt: 'Select 12 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>                
-              <%= select_tag(:botl_4, options_for_select(@teams_options), prompt: 'Select 4 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>13</td>
-            <td>                
-              <%= select_tag(:botl_13, options_for_select(@teams_options), prompt: 'Select 13 Seed') %>                             
-            </td>
-          </tr>     
-          <tr>
-            <td>6</td>
-            <td>                
-              <%= select_tag(:botl_6, options_for_select(@teams_options), prompt: 'Select 6 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>11</td>
-            <td>                
-              <%= select_tag(:botl_11, options_for_select(@teams_options), prompt: 'Select 11 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>                
-              <%= select_tag(:botl_3, options_for_select(@teams_options), prompt: 'Select 3 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>14</td>
-            <td>                
-              <%= select_tag(:botl_14, options_for_select(@teams_options), prompt: 'Select 14 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>                
-              <%= select_tag(:botl_7, options_for_select(@teams_options), prompt: 'Select 7 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>10</td>
-            <td>                
-              <%= select_tag(:botl_10, options_for_select(@teams_options), prompt: 'Select 10 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>                
-              <%= select_tag(:botl_2, options_for_select(@teams_options), prompt: 'Select 2 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>15</td>
-            <td>                
-              <%= select_tag(:botl_15, options_for_select(@teams_options), prompt: 'Select 15 Seed') %>                             
-            </td>
-          </tr>
-        </table>
-      </div> 
-    </div>
-    <!--
-    <div class='col-md-4 text-center outline'>
-      <! column 2 - nothing here 
-    </div>
-    -->
-    <div class='col-md-4 text-left outline'>
-      <strong>Division</strong>
-      <div>
-        <%= select_tag(:botr_div, options_for_select(@regions_options), prompt: 'Select Bottom Right Division') %>
-      </div>
-      <br>
-      <div>
-        <table class="table table-striped">                        
-          <thead>
-            <td><strong>Seed</strong></td>
-            <td><strong>Select Teams</strong></td>
-          </thead>
-          <tr>
-            <td>1</td>
-            <td>                
-              <%= select_tag(:botr_1, options_for_select(@teams_options), prompt: 'Select 1 Seed') %>                               
-            </td>
-          </tr>  
-          <tr>
-            <td>16</td>
-            <td>                
-              <%= select_tag(:botr_16, options_for_select(@teams_options), prompt: 'Select 16 Seed') %>                            
-            </td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>                
-              <%= select_tag(:botr_8, options_for_select(@teams_options), prompt: 'Select 8 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>9</td>
-            <td>                
-              <%= select_tag(:botr_9, options_for_select(@teams_options), prompt: 'Select 9 Seed') %>                              
-            </td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>                
-              <%= select_tag(:botr_5, options_for_select(@teams_options), prompt: 'Select 5 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>12</td>
-            <td>                
-              <%= select_tag(:botr_12, options_for_select(@teams_options), prompt: 'Select 12 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>                
-              <%= select_tag(:botr_4, options_for_select(@teams_options), prompt: 'Select 4 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>13</td>
-            <td>                
-              <%= select_tag(:botr_13, options_for_select(@teams_options), prompt: 'Select 13 Seed') %>                             
-            </td>
-          </tr>     
-          <tr>
-            <td>6</td>
-            <td>                
-              <%= select_tag(:botr_6, options_for_select(@teams_options), prompt: 'Select 6 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>11</td>
-            <td>                
-              <%= select_tag(:botr_11, options_for_select(@teams_options), prompt: 'Select 11 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>                
-              <%= select_tag(:botr_3, options_for_select(@teams_options), prompt: 'Select 3 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>14</td>
-            <td>                
-              <%= select_tag(:botr_14, options_for_select(@teams_options), prompt: 'Select 14 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>                
-              <%= select_tag(:botr_7, options_for_select(@teams_options), prompt: 'Select 7 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>10</td>
-            <td>                
-              <%= select_tag(:botr_10, options_for_select(@teams_options), prompt: 'Select 10 Seed') %>                             
-            </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>                
-              <%= select_tag(:botr_2, options_for_select(@teams_options), prompt: 'Select 2 Seed') %>                
-            </td>
-          </tr>  
-          <tr>
-            <td>15</td>
-            <td>                
-              <%= select_tag(:botr_15, options_for_select(@teams_options), prompt: 'Select 15 Seed') %>                             
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-  </div>
 
 </div>
